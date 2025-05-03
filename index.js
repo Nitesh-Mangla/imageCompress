@@ -4,7 +4,7 @@ const cors = require("cors");
 const path = require("path");
 const app  = express();
 require('dotenv').config();
-const compressorRoute = require('./routes/api.js');
+const compressorRoute = require('./Routes/api.js');
 const webRouter = require('./Routes/web.js');
 
 app.use('/', compressorRoute);
